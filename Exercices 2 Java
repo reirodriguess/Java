@@ -3,3 +3,16 @@ let nome = prompt('Qual seu nome?');
 let anos = prompt('Qual sua idade?');
 let linguagem = prompt('Qual linguagem está aprendendo?')
     alert(`Olá ${nome}, você tem ${anos} e já está aprendendo ${linguagem}`);
+
+    let sim = 1;
+    let não = 2;
+    let resposta;
+prompt(`Você gosta de estudar ${linguagem} ? Responda com o número 1 para SIM ou 2 para NÃO.`)
+
+if (resposta == 1){
+    alert('1 > Muito bom! Continue estudando e você terá muito sucesso.');
+}else {
+    alert('2 > Ahh que pena... Já tentou aprender outras linguagens?');
+}
+
+
